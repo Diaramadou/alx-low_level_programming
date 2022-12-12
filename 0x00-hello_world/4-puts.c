@@ -2,7 +2,8 @@
 
 
 /**
- * main - prints "Programming is like building a multilingnal puzzle, followed by a newline.
+ * main - prints "Programming is like building a multilingnal
+ * puzzle, followed by a newline.
  * Return: Always 0.
 */
 
