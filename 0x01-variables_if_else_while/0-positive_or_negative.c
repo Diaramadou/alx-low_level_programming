@@ -6,16 +6,21 @@
 int main(void)
 
 {
-	int n ;
-	srand(time(0)) ;
-	n = rand() - RAND_MAX / 2 ;
-	if (n < 0)
-		return ("is negative") ;
-	if (n > 0)
-		return ("is positive") ;
-	if (n = 0)
-		return ("is zero") ;
-	return (0) ;
-
-}
+	int n;
 	
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n < 0)
+	{
+	return ("%d is negative\n", n);
+	}
+	else if (n > 0)
+	{
+	return ("%d is positive\n", n);
+	}
+	else
+	{
+	return ("%d is zero\n", n);
+	}
+	return (0);
+}
