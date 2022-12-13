@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include<time.h>
+#include<stdio.h>
 /**
  * main - Printf if number is positive, zero or negative
  * Return: (Succes)
@@ -18,7 +19,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-	printf("%d is zero\n", n)
+	printf("%d is zero\n", n);
 	}
 	else
 	{
