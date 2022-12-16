@@ -28,4 +28,5 @@ int main(void)
 	{
 		printf("Last digital of %d is %d and is less than 6 and not 0", n, lastd);
 	}
+	return(0);
 }
